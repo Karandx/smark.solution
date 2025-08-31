@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://smarksolutions.com/sitemap.xml
+
+# Block access to source files
+Disallow: /src/
+Disallow: *.js.map
+Disallow: *.css.map
+
+# Allow important files
+Allow: /favicon.ico
+Allow: /robots.txt
+Allow: /sitemap.xml
